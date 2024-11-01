@@ -56,8 +56,8 @@
   :prefix 'vi-tilde-fringe-)
 
 (defface vi-tilde-fringe-face '((t (:inherit 'default)))
-    "Color for vi tilde displayed in the fringe when line is empty."
-    :group 'vi-tilde-fringe)
+  "Color for vi tilde displayed in the fringe when line is empty."
+  :group 'vi-tilde-fringe)
 
 (defcustom vi-tilde-fringe-bitmap-array
   [#b00000000
@@ -95,7 +95,6 @@ empty."
   (unless (minibufferp)
     (vi-tilde-fringe-mode +1)))
 
-(provide 'vi-tilde-fringe)
+(provide 'foo)
 
 ;;; vi-tilde-fringe.el ends here
-
